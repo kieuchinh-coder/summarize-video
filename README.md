@@ -47,7 +47,7 @@ GEMINI_API_KEY=your_google_genai_api_key
 ---
 5. Run the App
 
-streamlit run main.py
+streamlit run youtube_summarizer.py
 ---
 📦 Requirements
 Python 3.8+
@@ -59,6 +59,7 @@ Google Gemini API access
 gTTS
 
 yt-dlp
+
 ---
 
 📝  Improvements
@@ -71,4 +72,5 @@ yt-dlp
  Embed summarized video in UI
 
  Add download buttons for all output files
+ 
 ---
