@@ -36,17 +36,19 @@ A Streamlit-based web app that summarizes YouTube videos using **Gemini AI**, ge
 - **Utilities:** Python, Regex, subprocess, re, urllib
 
 ---
-2. Install Dependencies
+1. Install Dependencies
+   
 pip install -r requirements.txt
+---
 3. Add Your Gemini API Key
 Create a .env file in the root directory:
 
 GEMINI_API_KEY=your_google_genai_api_key
-
+---
 5. Run the App
 
 streamlit run main.py
-
+---
 📦 Requirements
 Python 3.8+
 
@@ -57,19 +59,9 @@ Google Gemini API access
 gTTS
 
 yt-dlp
+---
 
-🧠 AI Prompt Logic
-The prompt instructs Gemini to:
-
-Generate a clear video title
-
-Write 4–5 key bullet points
-
-Identify important timestamps
-
-Gemini responds with structured text which is parsed into summary and video highlights.
-
-📝 To-Do / Improvements
+📝  Improvements
  Add multi-language support for voiceover
 
  Custom summary length option
@@ -79,4 +71,4 @@ Gemini responds with structured text which is parsed into summary and video high
  Embed summarized video in UI
 
  Add download buttons for all output files
-
+---
