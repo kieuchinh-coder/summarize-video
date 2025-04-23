@@ -1,0 +1,9 @@
+streamlit 
+python-dotenv 
+google-generativeai 
+youtube-transcript-api 
+yt-dlp 
+requests 
+gtts
+ffmpeg
+os
